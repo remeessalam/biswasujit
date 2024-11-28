@@ -22,6 +22,7 @@ import RPA from "./pages/ServicesPages/RPA";
 import ARAndVR from "./pages/ServicesPages/ARAndVR";
 import NormalizeSlash from "./components/NormalizeSlash";
 import WhatsAppIcon from "./components/WhatsAppIcon";
+import { Toaster } from "react-hot-toast";
 
 Aos.init({
   once: true,
@@ -32,6 +33,15 @@ Aos.init({
 function App() {
   return (
     <BrowserRouter>
+      <Toaster
+        position="top-center"
+        toastOptions={{
+          style: {
+            background: "#17354f",
+            color: "#fff",
+          },
+        }}
+      />
       <ScrollToTop />
       <NormalizeSlash>
         <WhatsAppIcon />

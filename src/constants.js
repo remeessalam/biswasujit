@@ -35,6 +35,7 @@ export const clientDetails = {
   phone: "+91-9938702200",
   address:
     "C/O-Trilochan Sethi,Dhutitirtha,Gandhi chhack,Chauliaganj,Cuttack,Odisha-753004",
+  email: "Sethy.biswajit35@gmail.com",
 };
 
 // landing page header links
