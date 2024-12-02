@@ -128,7 +128,7 @@ const LandingPage = ({ page }) => {
 
       <HomePageServicesList />
       {/* <IndustriesWeServe /> */}
-      <Portfolio />
+      <Portfolio page={page} />
       {/* <WorkingProcess /> */}
       {/* <section className="py-[5rem] relative">
         <div className="blue-bg-shape -z-10 right-[-5%] rotate-[125deg] top-1/2 -translate-y-1/2"></div>

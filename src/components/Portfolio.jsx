@@ -2,6 +2,7 @@ import React from "react";
 import { appPortfolio, webPortfolio } from "../constants";
 
 const Portfolio = ({ page }) => {
+  console.log(page, "asdfkjasdf");
   const isWebDevelopment = Boolean(page === "web-development");
   let portfolio = isWebDevelopment ? webPortfolio : appPortfolio;
   return (
